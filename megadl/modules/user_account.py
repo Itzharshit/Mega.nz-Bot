@@ -79,7 +79,7 @@ def UploadToMega(toupload, megaupmsg):
     send_errors(e)
 
 
-@Client.on_message(filters.command("upload") & filters.private)
+@Client.on_message(filters.media & filters.private)
 async def uptomega(client: Client, message: Message):
   the_uid = message.from_user.id
   the_cid = message.chat.id
