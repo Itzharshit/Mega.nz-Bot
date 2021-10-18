@@ -90,7 +90,7 @@ async def uptomega(client: Client, message: Message):
   if email and password is None:
     await megauplaod_msg.edit("`Setup an User Account to Use this Feature!`")
     return
-  todownfile = message.reply_to_message
+  todownfile = message
   if todownfile is None:
     await megauplaod_msg.edit("**Please reply to a Media File or Direct Link to Upload!**")
     return
