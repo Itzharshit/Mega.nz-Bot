@@ -29,7 +29,7 @@ Deploy your own Bot ♥️! **Star 🌟 Fork 🍴 and Deploy**
 - `MEGA_PASSWORD` - Fill this if you want to use your own Mega Account. This is your Mega account Password
 
 ### With Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-fork/Mega.nz-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### With VPS/PC
 
